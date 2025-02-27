@@ -1,0 +1,54 @@
+# Ignore environment variable files
+.env
+*.env
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.vscode/
+
+# Ignore dependency files
+packages/
+
+# Ignore logs and temporary files
+*.log
+logs/
+
+# Ignore compiled binaries and cache
+*.dll
+*.exe
+*.pdb
+*.out
+*.so
+*.a
+*.o
+
+# Ignore Docker files
+.dockerignore
+Dockerfile
+
+# Ignore Visual Studio project files
+*.csproj.user
+*.vbproj.user
+*.sln.cache
+
+# Ignore Visual Studio working files
+.vs/
+
+# Ignore Rider project files
+.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux system files
+*.swp
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
