@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.API", "Payfast.Web.API\Payfast.API.csproj", "{C3DFB35B-A19B-4F07-B2A6-E181D586A219}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.Data.Tests", "Payfast.Data.Tests\Payfast.Data.Tests.csproj", "{6550F07F-91A2-443F-84E6-D5605EA8B803}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.Domain", "Payfast.Domain\Payfast.Domain.csproj", "{5395155F-852C-4929-B005-22D8FB1433C7}"
 EndProject
@@ -14,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.Mapping", "Payfast.Mapping\Payfast.Mapping.csproj", "{18517416-8423-448E-A1DE-3C928087583F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.Common", "Payfast.Common\Payfast.Common.csproj", "{E6D85B41-70FB-48AC-8FD4-E96DD7DCC9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.Domain.Tests", "Payfast.Common.Tests\Payfast.Domain.Tests.csproj", "{332A0433-9BAD-4201-AC7A-DE6690B70C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payfast.API.Tests", "Payfast.API.Tests\Payfast.API.Tests.csproj", "{CAE7F7B9-F14C-4BC2-A4C2-ABEE7CF80ABC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +27,6 @@ Global
 		{C3DFB35B-A19B-4F07-B2A6-E181D586A219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3DFB35B-A19B-4F07-B2A6-E181D586A219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3DFB35B-A19B-4F07-B2A6-E181D586A219}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6550F07F-91A2-443F-84E6-D5605EA8B803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6550F07F-91A2-443F-84E6-D5605EA8B803}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6550F07F-91A2-443F-84E6-D5605EA8B803}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6550F07F-91A2-443F-84E6-D5605EA8B803}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5395155F-852C-4929-B005-22D8FB1433C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5395155F-852C-4929-B005-22D8FB1433C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5395155F-852C-4929-B005-22D8FB1433C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +43,14 @@ Global
 		{E6D85B41-70FB-48AC-8FD4-E96DD7DCC9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6D85B41-70FB-48AC-8FD4-E96DD7DCC9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6D85B41-70FB-48AC-8FD4-E96DD7DCC9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332A0433-9BAD-4201-AC7A-DE6690B70C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332A0433-9BAD-4201-AC7A-DE6690B70C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332A0433-9BAD-4201-AC7A-DE6690B70C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332A0433-9BAD-4201-AC7A-DE6690B70C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE7F7B9-F14C-4BC2-A4C2-ABEE7CF80ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE7F7B9-F14C-4BC2-A4C2-ABEE7CF80ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE7F7B9-F14C-4BC2-A4C2-ABEE7CF80ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE7F7B9-F14C-4BC2-A4C2-ABEE7CF80ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
